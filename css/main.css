@@ -1,5 +1,15 @@
 /* General CSS stuff goes here. */
 
 body {
-    background-color: white;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+.text-center {
+    color: white;
+}
+
+footer {
+    margin: auto;
+    width: 25%
 }
