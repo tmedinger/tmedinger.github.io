@@ -1,1 +1,10 @@
 /* CSS code for the Navbar section. */
+nav {
+    background-color: pink;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
