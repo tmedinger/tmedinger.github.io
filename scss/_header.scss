@@ -1,12 +1,13 @@
 /* CSS code for the Header section. */
 
 body {
-    background-color: black;
+    background-color: rgb(216, 216, 216);
     color: white;
 }
 
 .text-center {
     color: white;
+    
 }
 
 li a {
@@ -15,4 +16,9 @@ li a {
 
 header.jumbotron {
     margin-bottom: 0px;
+}
+
+.jumbotron h1, .jumbotron p {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: "Karla", sans-serif;
 }

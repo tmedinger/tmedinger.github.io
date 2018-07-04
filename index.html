@@ -13,35 +13,29 @@
     <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
 
     <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Belleza">
+    <link href="https://fonts.googleapis.com/css?family=Belleza|Karla" rel="stylesheet">
     <link rel="stylesheet" href="" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     
-    <!-- Custom styles for this temlate -->
+    
+    <!-- Custom styles for this template -->
     <link rel="stylesheet" href="css/main.css" type="text/css">
 
 </head>
 <body>
-    <header class="jumbotron text-center" style="background-image: url(assets/img/matrixCodePink.jpg)">
+    <header class="jumbotron text-center" style="background-image: url(assets/matrix.jpg)">
         <div class="container">
-            <h1 class="jumbotron-heading">Tony Medinger's Portfolio</h1>
-            <p class=>Check out this totally dated Matrix background!  It's pink!</p>
+            <h1 class="jumbotron-heading">Tony Medinger</h1>
+            <p class=>Full Stack Web Developer</p>
         </div>
     </header>
     <nav class="navbar navbar-static-top" id="myNavbar">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                </button>
                 <ul class="nav navbar-nav">
                     <li><a href="#Portfolio">Portfolio</a></li>
                     <li><a href="#About">About</a></li>
                     <li><a href="#Contact">Contact</a></li>
-                    <li><a href="https://drive.google.com/file/d/16jEyNfTsYBjbRes6fs7TiKvWadzJeQrT/view?usp=sharing" target="blank">Resume</a></li>
+                    <li><a href="https://drive.google.com/open?id=1xXGGMpAhi86AoASFdcwP7oPhbEivlf-p" target="blank">Resume</a></li>
                 </ul>
             </div>
         </div>
@@ -55,12 +49,12 @@
                 <div class="thumbnail">
                     <a href="https://codepen.io/tmedinger/pen/dejJvo" target="blank"><img src="assets/img/creature.png" alt=""></a>
                     <div class="text-center caption">
-                        <h3>What is that?  It's coming right for us!</h3>
+                        <h3>One day into learning to code and I had to make a creature...</h3>
                         <p>CSS Creature</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4" id="middleIcon">
+            <div class="col-md-4">
                 <div class="thumbnail">
                     <a href="https://tmedinger.github.io/JavaScript-Website-Project/" target="blank"><img src="assets/img/websiteScreenshot.png" alt=""></a>
                     <div class="text-center caption">
@@ -82,12 +76,14 @@
     </section>
 
     <!-- About -->
-    <section class="text-white" id="About">
+    <section id="About">
         <div class="container">
             <h2 class="text-center text-uppercase text-white">About</h2>
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="lead">This is where I talk about myself and try to make myself seem really into coding, but not too into it as to seem creepy or lonely.  Also maybe throw in a little levity as no one wants to work with someone who's totally serious all of the time.  Those kinds of people are no fun.  Trust me I'm totally the right balance of serious McCodey, and hilarious dead-pan humor.  Oh the fun we'll have!</p>
+                    <p class="lead">After working as a bankruptcy paralegal for twelve years I decided maybe it was time to do something I might actually enjoy.  It only took about an hour into my first day learning to code for me to realize I loved it, and I wish I had started twenty years ago.  Better late than never though right? <br/>
+                    After going into it thinking I'd really want to focus on back-end development, I've been surprised at how much I enjoy front-end development as well.  Luckily that gives me the skill set, and drive, to be able to develop for the full stack as needed. <br/> 
+                    Now if I'm even luckier, and incredibly charming and talented, I'll get to keep doing this for a living.  After all, if I'm not going to make websites with incredibly outdated Matrix header images, who will? </p>
                 </div>
             </div>
         </div>
@@ -95,7 +91,12 @@
 
     <!-- Contact -->
     <section id="Contact">
-        <div class="container">
+        <div class="col-md-2 col-md-offset-5">
+            <a href="https://linkedin.com/in/anthony-medinger-1387b014a" target="blank"><img src="assets/In-2C-34px-R.png" alt=""/></a>
+            <a href="https://github.com/tmedinger" target="blank"><img src="assets/GitHub-Mark-32px.png" alt=""></a>
+        </div>
+        <br/>
+        <div class="container col-md-6 col-md-offset-3">
             <h2 class="text-center text-uppercase">Contact Me</h2>
             <div class="row">
                 <form action="https://formspree.io/tmedinger@gmail.com" method="POST">
@@ -120,7 +121,7 @@
                     <div class="control-group">
                         <div class="form-group">
                             <label>Message</label>
-                            <textarea class="form-control" id="message" rows="5" placeholder="I don't know why these contact forms are the in thing right now.  I like the good old contact link at the bottom that just auto opens up an email.  Something about writing the email directly onto the website creeps me out." name="contactForm"></textarea>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Contact me" name="contactForm"></textarea>
                         </div>
                     </div>
                     <div class="form-group">
@@ -136,10 +137,7 @@
         <p>
             <a href="#">Back to top</a>
         </p>
-        <p>&copy; 2018 Tony Medinger &middot;
-            <a href="#">Privacy</a> &middot;
-            <a href="#">Terms</a>
-        </p>
+        <p>&copy; 2018 Tony Medinger &middot;</p>
     </footer>
 
     <!-- Copyright -->
@@ -154,7 +152,7 @@
 
     <!-- jQuery -->
 
-    <!-- Custome scripts for this template -->
+    <!-- Custom scripts for this template -->
     <script src="js/main.js"></script>
     <script src="navbar.js"></script>
     

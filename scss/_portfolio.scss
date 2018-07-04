@@ -1,6 +1,17 @@
 /* CSS code for the Portfolio section. */
 
 .thumbnail {
-    background: pink;
+    background: rgb(162, 250, 162);
     background-image: contain;
+}
+
+.Portfolio h2 {
+    color: black;
+    text-decoration: underline;
+    font-family: "Karla", sans-serif;
+    padding-bottom: 1em;
+}
+
+.Portfolio h3 {
+    font-family: "Karla", sans-serif;
 }
