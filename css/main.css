@@ -1,7 +1,7 @@
 /* Variables used throughout will go here. */
 /* CSS code for the Navbar section. */
 nav {
-  background-color: #d8d8d8;
+  background-color: #99D5F1;
   font-family: "Karla", sans-serif; }
 
 .sticky {
@@ -11,7 +11,7 @@ nav {
 
 /* CSS code for the Header section. */
 body {
-  background-color: #d8d8d8;
+  background-color: #99D5F1;
   color: white; }
 
 .text-center {
@@ -29,7 +29,7 @@ header.jumbotron {
 
 /* CSS code for the Portfolio section. */
 .thumbnail {
-  background: #a2faa2;
+  background: #C6AC95;
   background-image: contain; }
 
 .Portfolio h2 {
