@@ -10,3 +10,4 @@ function scrollStick() {
         header.classList.remove("sticky");
     }
 }
+
