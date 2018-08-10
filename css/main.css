@@ -1,13 +1,18 @@
 /* Variables used throughout will go here. */
 /* CSS code for the Navbar section. */
-nav {
+#mainNav {
   background-color: #99D5F1;
-  font-family: "Karla", sans-serif; }
-
-.sticky {
-  position: fixed;
-  top: 0;
+  font-family: "Karla", sans-serif;
   width: 100%; }
+
+.navbar-brand {
+  text-align: left; }
+
+.navbar-brand {
+  color: black; }
+
+.icon-bar {
+  background-color: black; }
 
 /* CSS code for the Header section. */
 body {
@@ -21,10 +26,13 @@ li a {
   color: black; }
 
 header.jumbotron {
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  height: 34em;
+  background-image: url("../assets/pyramidscamelSmall.jpeg");
+  background-size: cover; }
 
 .jumbotron h1, .jumbotron p {
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: 2px 2px 2px black;
   font-family: "Karla", sans-serif; }
 
 /* CSS code for the Portfolio section. */
@@ -40,6 +48,25 @@ header.jumbotron {
 
 .Portfolio h3 {
   font-family: "Karla", sans-serif; }
+
+.overlay {
+  background-color: black;
+  opacity: 0;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  transition: 1s;
+  z-index: 0;
+  width: 98%;
+  height: 100%;
+  background-color: #99D5F1;
+  margin-left: -1em; }
+
+.overlay:hover {
+  transform: scale(1);
+  opacity: 0.8;
+  z-index: 1;
+  color: white; }
 
 /* CSS code for the About section. */
 #About p {

@@ -21,25 +21,37 @@
     <link rel="stylesheet" href="css/main.css" type="text/css">
 
 </head>
-<body>
-    <header class="jumbotron text-center" style="background-image: url(assets/pyramidscamelSmall.jpeg)">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav>
+        <div class="navbar navbar-fixed-top" id="mainNav" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle text-uppercase rounded" data-toggle="collapse" data-target=".navbar-collapse"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Tony Medinger</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#Portfolio">Portfolio</a></li>
+                        <li class="active"><a href="#About">About</a></li>
+                        <li class="active"><a href="#Contact">Contact</a></li>
+                        <li class="active"><a href="https://drive.google.com/open?id=1xXGGMpAhi86AoASFdcwP7oPhbEivlf-p" target="blank">Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>    
+    </nav>
+    <header class="jumbotron text-center">
         <div class="container">
             <h1 class="jumbotron-heading">Tony Medinger</h1>
             <p class=>Full Stack Web Developer</p>
         </div>
     </header>
-    <nav class="navbar navbar-static-top" id="myNavbar">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <ul class="nav navbar-nav">
-                    <li><a href="#Portfolio">Portfolio</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                    <li><a href="https://drive.google.com/open?id=1xXGGMpAhi86AoASFdcwP7oPhbEivlf-p" target="blank">Resume</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
     <!-- Portfolio -->
     <section class="Portfolio" id="Portfolio">
@@ -47,38 +59,54 @@
             <h2 class="text-center text-uppercase">Portfolio</h2>
             <div class="col-md-6">
                 <div class="thumbnail">
-                    <a href="https://codepen.io/tmedinger/pen/dejJvo" target="blank"><img src="assets/img/creature.png" alt=""></a>
-                    <div class="text-center caption">
-                        <h3>What is that?  It's coming right for us!</h3>
-                        <p>CSS Creature</p>
+                    <a href="https://codepen.io/tmedinger/pen/dejJvo" target="blank"><img src="assets/img/creature.png" alt="">
+                    <div class="overlay">
+                        <div class="text-center caption">
+                            <h3>What is that?  It's coming right for us!</h3>
+                            <p>This is my very first project done after one day of learning to code.  We had to make a creature using only HTML5 and CSS3, so I made this little guy.</p>
+                        </div>
                     </div>
+                    </a>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="thumbnail">
-                    <a href="https://tmedinger.github.io/JavaScript-Website-Project/" target="blank"><img src="assets/img/websiteScreenshot.png" alt=""></a>
-                    <div class="text-center caption">
-                        <h3>If only I could play video games for a living.</h3>
-                        <p>Mock Website</p>
+                    <a href="https://tmedinger.github.io/JavaScript-Website-Project/" target="blank"><img src="assets/img/websiteScreenshot.png" alt="">
+                    <div class="overlay">
+                        <div class="text-center caption">
+                            <h3>If only I could play video games for a living.</h3>
+                            <p>Two weeks after learning to code we had to make a mock website for something.  Since I play far too many video games I made a website for a fake hybrid gaming blog/video site. </p>
+                        </div>
                     </div>
+                    </a>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="thumbnail">
-                    <a href="https://star-wars-api-js-project.firebaseapp.com/" target="blank"><img src="assets/img/apiScreenshot.png" alt=""></a>
-                    <div class="text-center caption">
-                        <h3>A long time ago, in a galaxy far far away...</h3>
-                        <p>Star Wars API Project</p>
+                    <a href="https://star-wars-api-js-project.firebaseapp.com/" target="blank"><img src="assets/img/apiScreenshot.png" alt="">
+                    <div class="overlay">
+                        <div class="text-center caption">
+                            <h3>A long time ago, in a galaxy far far away...</h3>
+                            <p>This is a basic website for a project that makes a call to a Star Wars API based on your choices and then displays the selected category in a table.  </p>
+                        </div>
                     </div>
+                    </a>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="thumbnail">
-                    <a href="https://tdm-vgbacklogmanagerclient.herokuapp.com/" target="blank"><img src="assets/img/VGBLMScreenshot2.png" alt=""></a>
-                    <div class="text-center caption">
-                        <h3>I play way too many video games</h3>
-                        <p>P.E.R.N. Full Stack Website</p>
+                    <a href="https://tdm-vgbacklogmanagerclient.herokuapp.com/" target="blank"><img src="assets/img/VGBLMScreenshot2.png" alt="">
+                    <div class="overlay">
+                        <div class="text-center caption">
+                            <h3>I play way too many video games</h3>
+                            <p>This is my favorite project, a PERN full stack website that keeps track of the user's video game backlog.  Mine is very long... I have a problem.
+                            </p>
+                            <br>
+                            <p>I think of this project as my baby and I plan to keep tinkering with it, adding features and fine tuning things over time.
+                            </p>
+                        </div>
                     </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -92,7 +120,9 @@
                 <div class="col-lg-12">
                     <p class="lead">After working as a bankruptcy paralegal for twelve years I decided maybe it was time to do something I might actually enjoy.  It only took about an hour into my first day learning to code for me to realize I loved it, and I wish I had started twenty years ago.  Better late than never though right? <br/>
                     After going into it thinking I'd really want to focus on back-end development, I've been surprised at how much I enjoy front-end development as well.  Luckily that gives me the skill set, and drive, to be able to develop for the full stack as needed. <br/> 
-                    Now if I'm even luckier, and incredibly charming and talented, I'll get to keep doing this for a living.</p>
+                    Now if I'm even luckier, and incredibly charming and talented, I'll get to keep doing this for a living.<br/>
+                    In my free time I have two daughters I'm raising to be giant nerds.  I also love ancient egyptian things and would love to go see the pyramids some time.  That's why that picture's up there at the top.
+                    </p>
                 </div>
             </div>
         </div>
@@ -156,14 +186,14 @@
     <!-- Scripts -->
 
     <!-- Bootstrap & jQuery Scripts - Note: jQuery must be first -->
-    <script src="jquery/dist/jqery.min.js"></script>
+    <script src="jquery/dist/jquery.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!-- jQuery -->
 
     <!-- Custom scripts for this template -->
     <script src="js/main.js"></script>
-    <script src="navbar.js"></script>
+    <!-- <script src="navbar.js"></script> -->
     
 </body>
 </html>

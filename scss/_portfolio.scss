@@ -15,3 +15,24 @@
 .Portfolio h3 {
     font-family: "Karla", sans-serif;
 }
+
+.overlay {
+    background-color: black;
+    opacity: 0;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    transition: 1s;
+    z-index: 0;
+    width: 98%;
+    height: 100%;
+    background-color: #99D5F1;
+    margin-left: -1em;
+}
+
+.overlay:hover{
+    transform: scale(1);
+    opacity: 0.8;
+    z-index: 1;
+    color: white;
+}

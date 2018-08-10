@@ -1,11 +1,18 @@
 /* CSS code for the Navbar section. */
-nav {
+#mainNav {
     background-color: #99D5F1;
     font-family: "Karla", sans-serif;
+    width: 100%;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+.navbar-brand {
+    text-align: left;
+}
+
+.navbar-brand {
+    color: black;
+}
+
+.icon-bar {
+    background-color: black;
 }
